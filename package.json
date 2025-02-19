@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "element-plus": "^2.9.4",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^19.1.0",
+    "unplugin-vue-components": "^28.2.0"
   }
 }

@@ -4,3 +4,4 @@ frontend/dist
 .idea/modules.xml
 .idea/.gitignore
 .idea/via-svit.iml
+yarn.lock
