@@ -20,7 +20,6 @@ const fetchOrders = async () => {
   try {
     const { data } = await getOrders();
     orders.value = data;
-    console.error("获取订单", data);
   } catch (err) {
     console.error("获取订单失败", err);
   }
