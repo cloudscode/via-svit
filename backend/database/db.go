@@ -2,7 +2,7 @@ package database
 
 import (
 	"fmt"
-	"github.com/cloudscode/via-svit/models"
+	"github.com/cloudscode/via-svit/backend/models"
 	_ "github.com/go-sql-driver/mysql"
 	"xorm.io/xorm"
 )

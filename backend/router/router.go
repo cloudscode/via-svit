@@ -1,8 +1,8 @@
 package router
 
 import (
+	"github.com/cloudscode/via-svit/backend/api"
 	"github.com/gin-gonic/gin"
-	"via-svit/api"
 )
 
 func SetupRouter() *gin.Engine {

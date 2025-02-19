@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/cloudscode/via-svit/database"
-	"github.com/cloudscode/via-svit/models"
+	"github.com/cloudscode/via-svit/backend/database"
+	"github.com/cloudscode/via-svit/backend/models"
 )
 
 func GetOrders() ([]models.Order, error) {

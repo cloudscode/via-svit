@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cloudscode/via-svit/models"
-	"github.com/cloudscode/via-svit/services"
+	"github.com/cloudscode/via-svit/backend/models"
+	"github.com/cloudscode/via-svit/backend/services"
 	"github.com/gin-gonic/gin"
 )
 

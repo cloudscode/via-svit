@@ -1,7 +1,7 @@
 module github.com/cloudscode/via-svit
 
 go 1.22.0
-replace github.com/cloudscode/via-svit => ./
+
 toolchain go1.23.0
 
 require (
@@ -67,5 +67,3 @@ require (
 	modernc.org/libc v1.61.13 // indirect
 	xorm.io/builder v0.3.11-0.20220531020008-1bd24a7dc978 // indirect
 )
-
-// replace github.com/wailsapp/wails/v2 v2.9.2 => C:\Users\Administrator\go\pkg\mod
