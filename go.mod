@@ -1,13 +1,13 @@
 module github.com/cloudscode/via-svit
 
 go 1.22.0
-
+replace github.com/cloudscode/via-svit => ./
 toolchain go1.23.0
 
 require (
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-sql-driver/mysql v1.9.0
-	github.com/wailsapp/wails/v2 v2.9.2
+	github.com/wailsapp/wails/v2 v2.10.0
 	xorm.io/xorm v1.3.9
 )
 
@@ -63,6 +63,8 @@ require (
 	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	modernc.org/ccgo/v3 v3.17.0 // indirect
+	modernc.org/libc v1.61.13 // indirect
 	xorm.io/builder v0.3.11-0.20220531020008-1bd24a7dc978 // indirect
 )
 
