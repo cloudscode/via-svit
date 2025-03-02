@@ -1,26 +1,31 @@
 html {
-    background-color: rgba(27, 38, 54, 1);
-    text-align: center;
+    background-color: rgb(255, 255, 255);
     color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
     margin: 0;
-    color: white;
-    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    color: rgb(125, 125, 125);
+    font-family: "JetBrainsMono", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    "sans-serif";
+    line-height: 1.5;
+    padding: 0;
 }
 
 @font-face {
-    font-family: "Nunito";
+    font-family: "JetBrainsMono";
     font-style: normal;
     font-weight: 400;
-    src: local(""),
-    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+    src: url("assets/fonts/JetBrainsMono-Regular.woff2") format("woff2");
 }
 
 #app {
     height: 100vh;
     text-align: center;
+    overflow: hidden;
 }
