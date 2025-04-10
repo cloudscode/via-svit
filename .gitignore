@@ -5,3 +5,4 @@ frontend/dist
 .idea/.gitignore
 .idea/via-svit.iml
 yarn.lock
+.idea/workspace.xml
